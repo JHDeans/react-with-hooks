@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
+import React from "react";
 
-export default App = () => {
-  render( 
-   
-      <div className='app'>
-        <h1>DevCamp React Starter</h1>
-        <h2>React Redux Router</h2>
-      </div>
-    );
-  
-}
+import Home from "../pages/Home";
+
+const App = () => {
+  return <Home />;
+};
+
+export default App;
